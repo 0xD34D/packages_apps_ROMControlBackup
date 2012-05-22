@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="backup_items_text">
+        <item>General UI</item>
+        <item>Navigation Bar</item>
+        <item>Lockscreen Options</item>
+        <item>Power Menu Options</item>
+        <item>Weather</item>
+        <item>General</item>
+        <item>Toggles</item>
+        <item>Clock</item>
+        <item>Battery</item>
+        <item>Signal</item>
+        <item>Performance</item>
+        <item>Start-up Tweaks</item>
+    </string-array>
+    
+    <string-array name="backup_items_ids">
+        <item>ui</item>
+        <item>navbar</item>
+        <item>lockscreen</item>
+        <item>power</item>
+        <item>weather</item>
+        <item>general</item>
+        <item>toggles</item>
+        <item>clock</item>
+        <item>battery</item>
+        <item>signal</item>
+        <item>performance</item>
+        <item>startup</item>
+    </string-array>
+    
+</resources>

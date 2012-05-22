@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:orientation="vertical" >
+	
+	<RelativeLayout
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:orientation="vertical" >
+
+    	<CheckBox android:id="@+id/backup_all"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_alignParentTop="true"
+        	android:text="Restore all backed up settings" />
+    	
+    	<ImageView android:id="@+id/spacer"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="2dp"
+    	    android:layout_below="@+id/backup_all"
+    	    android:layout_margin="2dp"
+    	    android:src="@drawable/seperator"
+    	    android:scaleType="fitXY" />
+    	        
+    	<com.scheffsblend.aokp_backup.CheckListView android:id="@+id/backup_items"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_below="@+id/spacer" />
+    	    
+		<LinearLayout
+    		android:layout_width="match_parent"
+    		android:layout_height="match_parent"
+    		android:orientation="vertical" >
+
+		</LinearLayout>
+	
+	</RelativeLayout>
+
+</LinearLayout>
